@@ -867,10 +867,10 @@ var abi_gift = [
 	}
 ];
 
-var address = "0x04089e5bA4D911EA94e941aaCf225bd02096C5da";
-var address_gift = "0xd06C36fcF1f059af8FE6f72f750F125C6E0c769D";
+var address = "";
+var address_gift = "";
 
-var networkChain = 4002;
+var networkChain = 25;
 var getJSON = function (url, callback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", url, true);
