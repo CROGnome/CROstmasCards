@@ -714,44 +714,6 @@ var abi_gift = [
 		"type": "event"
 	},
 	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": true,
-				"internalType": "uint256",
-				"name": "tokenId",
-				"type": "uint256"
-			}
-		],
-		"name": "RegisterPossibleActions",
-		"type": "event"
-	},
-	{
-		"anonymous": false,
-		"inputs": [
-			{
-				"indexed": true,
-				"internalType": "uint256",
-				"name": "tokenIdchallenger",
-				"type": "uint256"
-			},
-			{
-				"indexed": true,
-				"internalType": "uint256",
-				"name": "tokenIdchallenged",
-				"type": "uint256"
-			},
-			{
-				"indexed": true,
-				"internalType": "uint256",
-				"name": "battleId",
-				"type": "uint256"
-			}
-		],
-		"name": "challengedToBattle",
-		"type": "event"
-	},
-	{
 		"inputs": [
 			{
 				"internalType": "address",
@@ -867,8 +829,8 @@ var abi_gift = [
 	}
 ];
 
-var address = "";
-var address_gift = "";
+var address = "0xE8D59fB0259F440F5f17cE29975F98D728614f18";
+var address_gift = "0xcd3381D175ab887040e7749aF51fB45ec1e0d24f";
 
 var networkChain = 25;
 var getJSON = function (url, callback) {
